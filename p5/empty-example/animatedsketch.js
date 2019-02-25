@@ -8,7 +8,7 @@ function setup() {
     var cnv = createCanvas(720, 400);
     cnv.style('display', 'block');
     cnv.parent('content');
-  img = loadImage('bckgrnd.jpg'); 
+  img = loadImage'bckgrnd.JPG');
 }
 
 function draw() {

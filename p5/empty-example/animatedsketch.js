@@ -16,6 +16,9 @@ function draw() {
     image(img,0,0,width, height);
     translate(width/2, height/2);
     
+    rotate(PI/6);
+    translate(-10,-10)
+    
     //hair
     fill(r,g,b);
     rect(-130,-130, 260, 225, 145);

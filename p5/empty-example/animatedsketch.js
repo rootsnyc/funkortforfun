@@ -54,7 +54,7 @@ function draw() {
     //left pupil
     fill(0);
     //ellipse(0,0,15,15); 
-    ellipse(map(mouseX, 0, width, -4, 4),0,15,15); 
+    ellipse(map(mouseX, 0, width, -3, 3),0,15,15); 
     
     //right eye
     fill(255); 
@@ -63,7 +63,7 @@ function draw() {
     //right pupil
     fill(0);
     //ellipse(0,0,15,15); 
-    ellipse(map(mouseX, 0, width, -4, 4),0,15,15); 
+    ellipse(map(mouseX, 0, width, -2,2 ),0,15,15); 
     
     //nose
     noFill();

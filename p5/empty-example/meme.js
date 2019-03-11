@@ -3,7 +3,7 @@ let value = 0;
 
 function setup() {
     
-  img = loadImage('meme.JPG');
+  img = loadImage('meme.jpg');
   createCanvas(710, 400);
 
   input = createInput();

@@ -14,13 +14,10 @@ function setup() {
   button.mousePressed(greet);
 
   label = 'astrology';
-  //label.position(150,70);
     
   butterfly= 'you';
-//  butterfly.position(560,65)
     
   greeting = 'is this a ______?';
-//  greeting.position(250, 300);
 
   textAlign(CENTER);
   textSize(30);

@@ -12,16 +12,21 @@ function setup() {
   button = createButton('submit');
   button.position(input.x + input.width, 370);
   button.mousePressed(greet);
+    
+  greeting = createElement('h2', 'is this a _________?');
+  greeting.position(250, 320);
 
+    
   label = 'astrology';
     
   butterfly= 'you';
     
-  greeting = 'is this a ______?';
 
   textAlign(CENTER);
-  textSize(30);
-  textFont('Helvetica')
+  textStyle(BOLD);
+  textSize(25);
+  
+  textFont('Times New Roman')
 }
 
 function draw() {
@@ -29,7 +34,6 @@ function draw() {
   fill(value);
   text(label, 170,220);
   text(butterfly, 560,65)
-  text(greeting,350,350)
   }
 
 
@@ -40,6 +44,10 @@ function greet() {
 }
 
 function keyPressed() {
+   if (event.keyCode === 13) {
+       greet();
+    }
+  
   if (value === 0) {
     value = 255;
   } else {

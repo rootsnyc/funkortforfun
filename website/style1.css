@@ -1,0 +1,153 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica, sans-serif;
+  text-align: center;  
+  color: white;
+  font-size: 50px;
+}
+
+.divbio {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica, sans-serif; 
+  color:black;
+  text-align: left;
+  width: 16em;
+}
+
+.pic {     
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.box{
+  position: absolute;
+  top: 70px;
+  left: 190px;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  padding: 8px 120px;
+  text-decoration: none;
+  font-size: 25  
+}
+
+li a:hover {
+  color: red;
+  text-shadow: 2px 2px black;
+  font-style: italic;
+}
+
+h1 a{
+  color: red;
+  padding: 8px 120px; 
+  font-size: 1.5em;
+  font-family: Impact, Charcoal, sans-serif;  
+  text-shadow: 2px 2px black;
+}
+
+h1 a:hover{
+    text-emphasis: dot black;
+    -webkit-text-emphasis: dot black;
+}
+
+p a{
+    text-decoration: underline;
+}
+
+p a:hover{
+    color:blue;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+    margin-left:400;
+    margin-top: -200;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+  
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+a:hover img {
+  transform: scale(1.15);
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+.p a {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
+  text-decoration: underline;
+  color: blue;
+}
+
+.p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
+
+figcaption {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  text-shadow: 1px 1px grey;
+    
+}

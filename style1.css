@@ -1,4 +1,3 @@
-
 .centered {
   position: absolute;
   top: 50%;
@@ -54,7 +53,6 @@ li a:hover {
   text-shadow: 2px 2px black;
   font-style: italic;
 }
-
 
 h1 a{
   color: red;
